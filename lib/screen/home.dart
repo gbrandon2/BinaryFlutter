@@ -1,5 +1,6 @@
+
 import 'package:flutter/material.dart';
-import 'package:calculadora/widget/binadec.dart';
+import 'package:calculadora/widget/decabin.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class Home extends StatelessWidget {
         title: 'Calculadora binario',
         home: Scaffold(
           appBar: AppBar(title: Text('Binary Converter')),
-          body: Center(child: Binadec()),
+          body: Center(child: DecaBin()),
         ));
   }
 }
